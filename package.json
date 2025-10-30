@@ -1,0 +1,29 @@
+{
+  "name": "encode-hooks-0-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm -r --filter=./packages/* run build",
+    "encode-fe-lint-scan": "encode-fe-lint scan",
+    "encode-fe-lint-fix": "encode-fe-lint fix",
+    "pub": "pnpm run build && pnpm -r --filter=./packages/* publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "encode-fe-lint": "^1.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "encode-fe-lint commit-file-scan",
+      "commit-msg": "encode-fe-lint commit-msg-scan"
+    }
+  },
+  "dependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "typescript": "^5.9.3"
+  }
+}
