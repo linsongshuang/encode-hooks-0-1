@@ -27,7 +27,7 @@ export default {
   hash: true,
   alias: {
     encodeHooks: `${process.cwd()  }/packages/hooks/src/index.ts`,
-    'encode-hooks-0-1': `${process.cwd()  }/packages/hooks/src/index.ts`,
+    'encode-hooks': `${process.cwd()  }/packages/hooks/src/index.ts`,
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
