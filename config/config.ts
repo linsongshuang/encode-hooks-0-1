@@ -6,7 +6,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: '/encode-hooks/',
+  publicPath: '/encode-hooks-0-1/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
@@ -20,14 +20,14 @@ export default {
   ],
   title: 'encode hooks',
   mode: 'site',
-  favicon: '/encode-hooks/avatar.png',
-  logo: '/encode-hooks/avatar.png',
+  favicon: '/encode-hooks-0-1/avatar.png',
+  logo: '/encode-hooks-0-1/avatar.png',
   dynamicImport: {},
   manifest: {},
   hash: true,
   alias: {
     encodeHooks: `${process.cwd()  }/packages/hooks/src/index.ts`,
-    'encode-hooks': `${process.cwd()  }/packages/hooks/src/index.ts`,
+    'encode-hooks-0-1': `${process.cwd()  }/packages/hooks/src/index.ts`,
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
