@@ -22,7 +22,9 @@
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@types/node": "^24.9.2",
-    "encode-fe-lint": "^1.0.3"
+    "encode-fe-lint": "^1.0.3",
+    "@umijs/fabric": "^2.1.0"
+
   },
   "husky": {
     "hooks": {
