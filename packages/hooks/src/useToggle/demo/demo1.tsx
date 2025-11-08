@@ -16,7 +16,7 @@ export default () => {
         <button type="button" onClick={toggle}>
           Toggle
         </button>
-        <button type="button" onClick={setLeft} style={{ margin: '0 8px' }}>
+        <button type="button" onClick={setLeft} style={{ margin: '0 12px' }}>
           Toggle False
         </button>
         <button type="button" onClick={setRight}>
